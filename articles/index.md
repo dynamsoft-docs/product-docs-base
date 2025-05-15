@@ -3,7 +3,7 @@ layout: home-page
 title: #{product-name} Documentation
 keywords: #{product-name}, documentation
 description: #{product-name} Documentation Homepage
-permalink: # /docs/index.html
+permalink: /index.html
 ---
 
 # {product-name}
