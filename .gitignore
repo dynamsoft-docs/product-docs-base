@@ -6,14 +6,14 @@ _layouts/search-page.html
 _layouts/tree-layout.html
 
 # Assets
-assets/font-face
-assets/img-icon
-assets/js
-assets/scripts
-assets/css
+assets/font-face/*
+assets/img-icon/*
+assets/js/*
+assets/scripts/*
+assets/css/*
 
-# Web Resources
-webres/
+# Web resources
+webres/*
 
 # Includes
 _includes/*
