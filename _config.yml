@@ -1,25 +1,25 @@
-repository: #dynamsoft-docs/{product-name}-docs
-repositoryUrl: #https://github.com/dynamsoft-docs/{product-name}-docs/blob/main
-docFullPath: #https://www.dynamsoft.com/{product-name}/docs
-firstLevelUrl: #/{product-name}/docs
-docHomePage: #/{product-name}/docs/introduction/
+repository: dynamsoft-docs/{product-name}-docs
+repositoryUrl: https://github.com/dynamsoft-docs/{product-name}-docs/blob/main
+docFullPath: https://www.dynamsoft.com/{product-name}/docs
+firstLevelUrl: /{product-name}/docs
+docHomePage: /{product-name}/docs/introduction/index.html
 
-introduction: #/{product-name}/docs/introduction/
-code-gallery: #/{product-name}/docs/code-gallery/
-api: #/{product-name}/docs/api/
-guides: #/{product-name}/docs/guides/
-release-notes: #/{product-name}/docs/release-notes/
+introduction: /{product-name}/docs/introduction/
+code-gallery: /{product-name}/docs/code-gallery/
+api: /{product-name}/docs/api/
+guides: /{product-name}/docs/guides/
+release-notes: /{product-name}/docs/release-notes/
 
 useVersionTree: true
 
-assets: #/{product-name}/docs/assets/
-edit_icon: #/{product-name}/docs/assets/img-icon/edit-icon.png
-smile_icon: #/{product-name}/docs/assets/img-icon/icon-smile.png
-sad_icon: #/{product-name}/docs/assets/img-icon/icon-sad.png
+assets: /{product-name}/docs/assets/
+edit_icon: /{product-name}/docs/assets/img-icon/edit-icon.png
+smile_icon: /{product-name}/docs/assets/img-icon/icon-smile.png
+sad_icon: /{product-name}/docs/assets/img-icon/icon-sad.png
 
-baseurl: #"/{product-name}/docs"
+baseurl: /{product-name}/docs
 
-download: #"/{product-name}/downloads/"
+download: /{product-name}/downloads/
 
 plugins:
   - jekyll-sitemap
@@ -37,4 +37,4 @@ defaults:
     values:
       sitemap: false
 
-url: "https://www.dynamsoft.com" # sitemap root
+url: https://www.dynamsoft.com # sitemap root
