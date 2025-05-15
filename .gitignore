@@ -6,23 +6,23 @@ _layouts/search-page.html
 _layouts/tree-layout.html
 
 # Assets
-assets/font-face/*
-assets/img-icon/*
-assets/js/*
-assets/scripts/*
-assets/css/*
+assets/font-face/**
+assets/img-icon/**
+assets/js/**
+assets/scripts/**
+assets/css/**
 
 # Web resources
-webres/*
+webres/**
 
 # Includes
-_includes/*
+_includes/**
 
 # Plugins
-_plugins/*
+_plugins/**
 
 # Site resources
-_site/*
+_site/**
 
 sitemap.xml
 Hide_Tree_Page.md
