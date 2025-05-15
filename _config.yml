@@ -1,0 +1,40 @@
+repository: #dynamsoft-docs/{product-name}-docs
+repositoryUrl: #https://github.com/dynamsoft-docs/{product-name}-docs/blob/main
+docFullPath: #https://www.dynamsoft.com/{product-name}/docs
+firstLevelUrl: #/{product-name}/docs
+docHomePage: #/{product-name}/docs/introduction/
+
+introduction: #/{product-name}/docs/introduction/
+code-gallery: #/{product-name}/docs/code-gallery/
+api: #/{product-name}/docs/api/
+guides: #/{product-name}/docs/guides/
+release-notes: #/{product-name}/docs/release-notes/
+
+useVersionTree: true
+
+assets: #/{product-name}/docs/assets/
+edit_icon: #/{product-name}/docs/assets/img-icon/edit-icon.png
+smile_icon: #/{product-name}/docs/assets/img-icon/icon-smile.png
+sad_icon: #/{product-name}/docs/assets/img-icon/icon-sad.png
+
+baseurl: #"/{product-name}/docs"
+
+download: #"/{product-name}/downloads/"
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+
+url: "https://www.dynamsoft.com" # sitemap root

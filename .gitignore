@@ -1,0 +1,22 @@
+# Layout templates
+# _layouts/default-layout.html
+# _layouts/home-page.html
+# _layouts/search-layout.html
+# _layouts/search-page.html
+# _layouts/tree-layout.html
+
+# Assets
+# assets/font-face
+# assets/img-icon
+# assets/js
+# assets/scripts
+# assets/css
+
+# Includes
+# _includes/*
+
+# Plugins
+# _plugins/*
+
+sitemap.xml
+Hide_Tree_Page.md
