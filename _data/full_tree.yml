@@ -1,1 +1,6 @@
 tree_file_list:
+  - side-list-introduction.html
+  - side-list-guides.html
+  - side-list-api.html
+  - side-list-release-notes.html
+  - side-list-full-tree.html

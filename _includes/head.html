@@ -52,7 +52,7 @@
 			{%- assign truncateDocHomePageSize = firstLevelUrl | size | minus:1 -%}
 			{%- assign firstLevelUrl = firstLevelUrl | slice: 0, truncateDocHomePageSize -%}
 	{%- endif -%}
-    {%- assign assetsPath = firstLevelUrl | append: '/webres/wwwroot' -%}
+    {%- assign assetsPath = 'https://www.dynamsoft.com/webres/wwwroot' -%}
 
     <link rel="preload" as="font" href="{{ site.assets }}font-face/Oswald-Regular.ttf" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" as="font" href="{{ site.assets }}font-face/OpenSans-Regular.woff" type="font/woff" crossorigin="anonymous">
