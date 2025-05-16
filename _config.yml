@@ -3,6 +3,10 @@ repositoryUrl: https://github.com/dynamsoft-docs/{product-name}-docs/blob/main
 docFullPath: https://www.dynamsoft.com/{product-name}/docs
 firstLevelUrl: /{product-name}/docs
 docHomePage: /{product-name}/docs/introduction/index.html
+product-page-url: https://www.dynamsoft.com/{product-name}
+
+product-name: /{product-name}/
+product-title: Product Name
 
 introduction: /{product-name}/docs/introduction/
 code-gallery: /{product-name}/docs/code-gallery/
