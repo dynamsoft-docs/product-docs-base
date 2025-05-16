@@ -16,9 +16,6 @@ assets: /{product-name}/docs/assets/
 edit_icon: /{product-name}/docs/assets/img-icon/edit-icon.png
 smile_icon: /{product-name}/docs/assets/img-icon/icon-smile.png
 sad_icon: /{product-name}/docs/assets/img-icon/icon-sad.png
-
-baseurl: /{product-name}/docs
-
 download: /{product-name}/downloads/
 
 plugins:
@@ -38,3 +35,4 @@ defaults:
       sitemap: false
 
 url: https://www.dynamsoft.com # sitemap root
+baseurl: /{product-name}/docs
