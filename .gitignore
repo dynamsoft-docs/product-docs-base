@@ -12,7 +12,8 @@ assets/css/**
 webres/**
 
 # Includes
-_includes/productNav/**
+_includes/productNav/*
+!_/includes/productNav/{product-name}Nav.html
 _includes/auto-version-list.html
 _includes/head.html
 _includes/liquid_autoGenerateHistoryList.html
