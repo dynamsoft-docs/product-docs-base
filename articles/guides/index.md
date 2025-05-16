@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: #{product-name} - Developer Guide
-description: #{product-name} Developer Guide
-keywords: Developer Guides, {product-name}, Developer Guide, {product-name} Developer Guides
+title: #{product-title} - Developer Guide
+description: #{product-title} Developer Guide
+keywords: Developer Guides, {product-title}, Developer Guide, {product-title} Developer Guides
 needAutoGenerateSidebar: true
 permalink: /guides/index.html
 ---

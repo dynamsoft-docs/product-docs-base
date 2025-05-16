@@ -6,7 +6,7 @@ docHomePage: /{product-name}/docs/introduction/index.html
 product-page-url: https://www.dynamsoft.com/{product-name}
 
 product-name: /{product-name}/
-product-title: Product Name
+product-title: {Product Name}
 
 introduction: /{product-name}/docs/introduction/
 code-gallery: /{product-name}/docs/code-gallery/

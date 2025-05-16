@@ -1,6 +1,6 @@
 ---
 layout: search-page
-title: #{product-name} Search
-keywords: #{product-name} Documentation Search
+title: #{product-title} Search
+keywords: #{product-title} Documentation Search
 cx: 912cbb35fff874a8d
 ---

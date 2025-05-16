@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: #{product-name} - API Reference
-description: #{product-name} API Reference
-keywords: API Reference, {product-name}, API Reference, {product-name} API References
+title: #{product-title} - API Reference
+description: #{product-title} API Reference
+keywords: API Reference, {product-title}, API Reference, {product-title} API References
 needAutoGenerateSidebar: true
 permalink: /api/index.html
 ---

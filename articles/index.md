@@ -1,12 +1,12 @@
 ---
 layout: home-page
-title: #{product-name} Documentation
-keywords: #{product-name}, documentation
-description: #{product-name} Documentation Homepage
+title: #{product-title} Documentation
+keywords: #{product-title}, documentation
+description: #{product-title} Documentation Homepage
 permalink: /index.html
 ---
 
-# {product-name}
+# {{ site.product-title }}
 
 - [Introduction]({{ site.introduction }}index.html)
 - [Developer Guides]({{ site.guides }}index.html)
