@@ -13,6 +13,8 @@ webres/**
 
 # Includes
 _includes/productNav/**
+_includes/auto-version-list.html
+_includes/head.html
 _includes/liquid_autoGenerateHistoryList.html
 _includes/liquid_breadcrumb.html
 _includes/liquid_generateFullTree.html
