@@ -1,9 +1,5 @@
 # Layout templates
-_layouts/default-layout.html
-_layouts/home-page.html
-_layouts/search-layout.html
-_layouts/search-page.html
-_layouts/tree-layout.html
+_layouts/**
 
 # Assets
 assets/font-face/**
@@ -16,7 +12,19 @@ assets/css/**
 webres/**
 
 # Includes
-_includes/**
+_includes/productNav/**
+_includes/liquid_autoGenerateHistoryList.html
+_includes/liquid_breadcrumb.html
+_includes/liquid_generateFullTree.html
+_includes/liquid_searchVersionTreeFile.html
+_includes/livehelp.html
+_includes/main-page-head.html
+_includes/page_footer.html
+_includes/page_header.html
+_includes/productNav_OLD.html
+_includes/productNav.html
+_includes/search-input.html
+_includes/trialLicense.html
 
 # Plugins
 _plugins/**
