@@ -52,7 +52,7 @@ jobs:
     steps:
       # Runs a set of commands using the runners shell
       - name: Download the artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v4.3.0
         with:
           name: ${{ inputs.doc-repo }}
 
@@ -63,7 +63,7 @@ jobs:
           tar -xzf ${{ inputs.doc-repo }}.tar.gz -C ${{ runner.temp }}\DocHome\_site
 
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           server: ${{ secrets.FTP_TEST_SITE_SERVER }}
           username: ${{ secrets.FTP_TEST_SITE_USER }}
