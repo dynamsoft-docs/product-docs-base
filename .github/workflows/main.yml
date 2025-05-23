@@ -20,7 +20,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-production.yml@main
     with:
-      doc-repo: product-name-docs
+      doc-repo: product-docs-base
       doc-url: product-name/docs/
     secrets: inherit
 
@@ -28,6 +28,6 @@ jobs:
     if: ${{ github.ref == 'refs/heads/preview' }}
     uses: ./.github/workflows/called-workflow-build-sync-testing.yml
     with:
-      doc-repo: product-name-docs
+      doc-repo: product-docs-base
       doc-url: product-name/docs/
     secrets: inherit
