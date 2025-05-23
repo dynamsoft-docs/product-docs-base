@@ -26,7 +26,7 @@ jobs:
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
-    uses: .github/workflows/called-workflow-build-sync-testing.yml
+    uses: .github/workflows/called-workflow-build-sync-testing.yml@preview
     with:
       doc-repo: product-name-docs
       doc-url: product-name/docs/
