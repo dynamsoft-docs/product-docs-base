@@ -69,6 +69,6 @@ jobs:
           username: ${{ secrets.FTP_TEST_SITE_USER }}
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           protocol: ftps
-          port: 2122
+          port: ${{ secrets.FTP_TEST_SITE_PORT }}
           local-dir: ${{ runner.temp }}\DocHome\_site/
           server-dir: /www.dynamsoft.com/${{ inputs.doc-url }}/
