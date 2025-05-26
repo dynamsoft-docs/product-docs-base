@@ -8,9 +8,6 @@ assets/js/**
 assets/scripts/**
 assets/css/**
 
-# Web resources
-webres/**
-
 # Includes
 _includes/productNav/*
 !_/includes/productNav/{product-name}Nav.html
