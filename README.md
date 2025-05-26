@@ -20,7 +20,7 @@ As the site is build with Jekyll, please read the official [Jekyll documentation
 
 ## Building and Previewing Locally
 
-Building locally allows you to preview the site and check that it builds correctly before making too many commits and deploying (or failing to deploy) too many times on the preview site. Building locally requires a Ruby runtime (we highly recommend installing ruby with an environment manager like `mise` or `rvm`), and resources from [Docs-Template-Repo](https://github.com/dynamsoft-docs/Docs-Template-Repo). When running CI/CD, GitHub actions uses the resources from that repository and uses Jekyll to build the site.
+Building locally allows you to preview the site and check that it builds correctly before making too many commits and deploying (or failing to deploy) too many times on the preview site. Building locally requires a Ruby runtime (we highly recommend installing ruby with an environment manager like [`mise`](https://mise.jdx.dev/dev-tools/) or `rvm`), and resources from [Docs-Template-Repo](https://github.com/dynamsoft-docs/Docs-Template-Repo). When running CI/CD, GitHub actions uses the resources from that repository and uses Jekyll to build the site.
 
 First, install Ruby (at least version 3.2.2). Then, clone `Docs-Template-Repo`, and copy all files into the working project directory. Since these resources are only for local use, they are all included in `.gitignore` so they can be safely copied without polluting `git`.
 
@@ -30,11 +30,11 @@ Finally to build, run `bundle exec jekyll build`, which outputs site assets at `
 
 ## Deploying to Preview Site
 
-The GitHub action to deploy to the preview test site triggers upon commits to the `preview` branch.
+The GitHub action to deploy to the preview test site triggers upon commits to the `preview` branch. Always merge your commits to the preview branch for testing before pushing to production on the `main` branch.
 
 ## Deploying to Production Site
 
-The GitHub action to deploy to the production site triggers upon commits to the `main` branch.
+The GitHub action to deploy to the production site triggers upon commits to the `main` branch. Remember to test on the `preview` branch before pushing to the `main` branch.
 
 ## Directory and File Structure
 
