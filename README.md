@@ -12,7 +12,7 @@ This repository contains the base set of files used to initialize a repository f
 
 ## Initializing the Repository
 
-First, clone the git repository for the product documentation, and then move all files in this repository in there. The contents of this README.md should be replaced with relevant content. Next, search for every instance of `{product-name}` and replace them with the actual product name in kebab case, and do the same for `{product-title}` and `Product Name` but both space-separated and title-cased. Finally, in `.github/workflows/main.yml`, change occurrences of `product-name` accordingly. These are just placeholders and not liquid variables.
+First, clone the git repository for the product documentation, and then move all files in this repository in there. The contents of this README.md should be replaced with relevant content. Next, search for every instance of `{product-name}` and replace them with the actual product name in kebab case, and do the same for `{product-title}` and `Product Name` but both space-separated and title-cased. Finally, in `.github/workflows/main.yml`, change occurrences of `product-name` and `product-docs-base` accordingly. These are just placeholders and not liquid variables.
 
 Now, the repository is set up for building, previewing, and compiling the site.
 
