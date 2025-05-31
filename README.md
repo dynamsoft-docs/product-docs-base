@@ -71,13 +71,14 @@ Our documentation repositories across all our products attempt to adhere to a st
 
 1. Use `liquid` macro variables for hyperlinks, rather than using raw URLs. This allows you to test links on local builds and on the preview site. Raw URLs only point to pages on the official site and so do not allow us to test new pages, among other things. Define new macro variables judiciously in the `_config.yml`.
 2. Store image assets in the `/assets/imgs/` directory. The other directories under `/assets/` are ignored.
-3. Run linters and spell-checkers. We recommend [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker) on VS Code -derived editors. Use US English.
+3. Run linters and spell-checkers. We recommend [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker) on VS Code -derived editors. **Use US English**.
 4. Run link-checkers on local and preview sites. [Broken Link Checker](https://webextension.org/listing/broken-link-checker.html) for Firefox can check links recursively. Be sure to rate limit and blacklist recurring links to avoid spamming our web servers.
 5. Do not use contractions, e.g. "can't", "you've", and "we've" [sic].
 6. Use the first person (active voice), e.g. the pronouns we and you. Do not use the singular first person pronoun "I".
 7. Avoid the use of the verb "to be" at all costs. Look for other, more descriptive verbs in its place. This also avoids the use of the passive voice, e.g. write "x initializes y" instead of "y **is** initialized by x".
 8. Use the present tense by default.
 9. Use gerunds for page and section titles, e.g. write "Getting Started" instead of "Get Started".
+10. Use a `liquid` LSP (language server protocol) to check for macro syntax errors. [Liquid](https://github.com/panoply/vscode-liquid) works for VS Code -derived editors.
 
 ## Directory and File Structure
 
